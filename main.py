@@ -3,7 +3,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from kivy.uix.button import Button
 from kivy.core.window import Window
-# trigger build
+# trigger
 class HomeApp(App):
     def build(self):
         Window.clearcolor = (0.95, 0.95, 0.95, 1)
